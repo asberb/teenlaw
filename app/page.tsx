@@ -278,7 +278,7 @@ export default function Home() {
 
 interface Law {
   title: string;
-  description: string;
+  description: React.ReactNode;
   details?: React.ReactNode;
 }
 
